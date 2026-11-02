@@ -1,0 +1,7 @@
+{
+  "name": "kahani-toon-studio",
+  "version": "2.0.0",
+  "description": "Hindi kahani cartoon story videos in the flat 2D Indian village style: a reusable library of characters (dhoti, saree, pagdi, topi), scenes (village street, kitchen, houses, forest, cave) and props, all drawn in code. Calm cartoon movement (held gestures that ease into each other, planted-foot walk, lip-flap, blinks), realistic proportions and detailed faces, small Hindi captions as a voice-over guide, SRT and voice-over script export, re-timing to recorded clips and audio muxing. 1920x1080, 30 fps.",
+  "author": { "name": "rkswcud2" },
+  "keywords": ["video", "animation", "cartoon", "hindi", "kahani", "indian village", "moral story", "2d", "captions", "voice-over"]
+}

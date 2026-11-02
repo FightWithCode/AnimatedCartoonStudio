@@ -1,0 +1,7 @@
+{ "id": "mohan", "name": "Mohan (neighbour)", "height": 366, "seed": 3,
+  "skin": "#c98e60", "build": { "sw": 1.04, "ww": 1.04 },
+  "hair": { "style": "short", "color": "#17100d" },
+  "face": { "brow": "#17100d", "eyeScale": 1 },
+  "top": { "type": "polo", "color": "#2e3a22", "sleeve": "short" },
+  "bottom": { "type": "dhoti", "color": "#f4f1e8", "border": "#cf3a2c" },
+  "shoes": { "color": "#4b3a2c", "kind": "sandal" }, "extras": {} }

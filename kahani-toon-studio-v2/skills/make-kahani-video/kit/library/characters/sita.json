@@ -1,0 +1,8 @@
+{ "id": "sita", "name": "Sita (Ramu's wife)", "height": 338, "seed": 2,
+  "skin": "#d79d6e", "build": { "sw": 0.86, "ww": 0.9 },
+  "hair": { "style": "bun", "color": "#1a1210" },
+  "face": { "lash": true, "eyeScale": 1.05, "brow": "#1a1210", "blush": "#e56a6a" },
+  "top": { "type": "blouse", "color": "#c6362f", "sleeve": "short", "pallu": "#d9473a", "border": "#e8b84a" },
+  "bottom": { "type": "saree", "color": "#cf3b34", "border": "#e8b84a" },
+  "shoes": { "color": "#d79d6e", "kind": "bare" },
+  "extras": { "bindi": "#b01a1a", "bangles": "#e8b84a", "earring": "#e8b84a", "necklace": "#e8b84a", "sindoor": "#c0261b" } }

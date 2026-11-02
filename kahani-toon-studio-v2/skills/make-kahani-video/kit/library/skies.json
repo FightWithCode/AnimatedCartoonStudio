@@ -1,0 +1,10 @@
+{
+  "night": {"top": "#0a0f2e", "mid": "#18235a", "bottom": "#34457f", "grade": "#5767a6", "sun": null, "stars": 1},
+  "dawn": {"top": "#5d7bd0", "mid": "#f2a7a0", "bottom": "#ffd7a1", "grade": "#ffe2c6", "sun": {"x": 0.78, "y": 0.78, "r": 70, "color": "#fff0b8"}, "stars": 0.15},
+  "day": {"top": "#3b97e6", "mid": "#8fd0f2", "bottom": "#d7f1f7", "grade": "#ffffff", "sun": null, "stars": 0},
+  "sunset": {"top": "#4f64b8", "mid": "#f08a76", "bottom": "#ffc27a", "grade": "#ffcf9a", "sun": {"x": 0.2, "y": 0.72, "r": 84, "color": "#ffd58a"}, "stars": 0},
+  "warm": {"top": "#000000", "mid": "#000000", "bottom": "#000000", "grade": "#ffe9cf", "sun": null, "stars": 0},
+  "nightRoom": {"top": "#000000", "mid": "#000000", "bottom": "#000000", "grade": "#c6b8dc", "sun": null, "stars": 0},
+  "eveRoom": {"top": "#000000", "mid": "#000000", "bottom": "#000000", "grade": "#f6c9a0", "sun": null, "stars": 0},
+  "cave": {"top": "#000000", "mid": "#000000", "bottom": "#000000", "grade": "#b49fe0", "sun": null, "stars": 0}
+}

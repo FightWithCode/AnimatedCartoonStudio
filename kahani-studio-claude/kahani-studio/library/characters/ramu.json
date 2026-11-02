@@ -1,0 +1,8 @@
+{ "id": "ramu", "name": "Ramu (cart seller)", "height": 366, "seed": 1,
+  "skin": "#d9a06e", "build": { "sw": 1.0, "ww": 1.0 },
+  "hair": { "style": "short", "color": "#1c1411" },
+  "headwear": { "type": "turban", "color": "#2f46b8", "tail": true },
+  "face": { "moustache": "#1c1411", "brow": "#1c1411", "eyeScale": 1 },
+  "top": { "type": "shirt", "color": "#8dc0ec", "sleeve": "short", "pocket": true },
+  "bottom": { "type": "dhoti", "color": "#f3efe4", "border": "#d0452e" },
+  "shoes": { "color": "#6a4428", "kind": "sandal" }, "extras": {} }

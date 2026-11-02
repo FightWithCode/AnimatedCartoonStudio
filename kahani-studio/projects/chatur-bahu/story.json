@@ -1,0 +1,37 @@
+{
+  "title": "चतुर बहू",
+  "resolution": "1080p",
+  "fps": 25,
+  "captions": true,
+  "pace": 2.4,
+  "cast": {
+    "gita":   { "name": "गीता", "gender": "f", "outfit": "saree", "topColor": "#2a8a4a", "bottomColor": "#e2462e", "border": "#f0c02c", "pattern": "dots", "skin": "wheat" },
+    "babuji": { "name": "बाबूजी", "outfit": "kurta-dhoti", "topColor": "#f3efe4", "vest": "#5a3a8a", "headwear": "pagdi", "pagdiColor": "#f0a020", "mustache": "handlebar", "age": "old", "hairColor": "white", "mustacheColor": "#e8e4dc", "prop": "cane" },
+    "lala":   { "name": "लाला", "outfit": "kurta-pajama", "topColor": "#f6e6b0", "headwear": "topi", "build": "heavy", "mustache": "bushy", "glasses": true, "tilak": true }
+  },
+  "scenes": [
+    { "location": "village", "time": "day", "shots": [
+      { "framing": "wide", "cam": "push", "title": "चतुर बहू", "subtitle": "एक छोटी सी कहानी", "dur": 3 }
+    ]},
+    { "location": "courtyard", "time": "day", "shots": [
+      { "framing": "wide", "cam": "panR", "chars": [ { "id": "babuji", "x": 0.3, "pose": "cane" }, { "id": "gita", "x": 0.66, "pose": "worried" } ],
+        "lines": [ { "speaker": "narrator", "text": "गाँव में गीता अपने बूढ़े ससुर के साथ रहती थी।" } ] },
+      { "framing": "medium", "chars": [ { "id": "gita", "x": 0.27, "view": "back" }, { "id": "babuji", "x": 0.7, "pose": "cane" } ],
+        "lines": [ { "speaker": "babuji", "text": "बहू, आज बाज़ार से थोड़ा अनाज ले आना।", "acts": { "babuji": { "pose": "explain", "expr": "smile" } } } ] },
+      { "framing": "mcu", "cam": "push", "chars": [ { "id": "gita", "x": 0.5, "expr": "smile" } ],
+        "lines": [ { "speaker": "gita", "text": "जी बाबूजी, अभी जाती हूँ।", "acts": { "gita": { "pose": "namaste", "expr": "happy" } } } ] }
+    ]},
+    { "location": "shop", "time": "day", "shots": [
+      { "framing": "full", "chars": [ { "id": "lala", "x": 0.36, "layer": "back", "expr": "sly" }, { "id": "gita", "x": 0.74 } ],
+        "lines": [ { "speaker": "lala", "text": "पचास रुपये किलो! लेना है तो लो।", "acts": { "lala": { "pose": "point", "expr": "sly" }, "gita": { "expr": "surprised" } } } ] },
+      { "framing": "close", "cam": "zoom", "chars": [ { "id": "gita", "x": 0.52 } ],
+        "lines": [ { "speaker": "gita", "text": "लाला जी, कल तो यही अनाज तीस का था!", "acts": { "gita": { "pose": "explain", "expr": "angry" } } } ] },
+      { "framing": "mcu", "chars": [ { "id": "lala", "x": 0.34, "layer": "back" } ],
+        "lines": [ { "speaker": "lala", "text": "अच्छा अच्छा... तीस ही दे दो।", "acts": { "lala": { "pose": "open", "expr": "worried" } } } ] }
+    ]},
+    { "location": "courtyard", "time": "evening", "shots": [
+      { "framing": "full", "cam": "pull", "chars": [ { "id": "babuji", "x": 0.36, "pose": "bless", "expr": "happy" }, { "id": "gita", "x": 0.64, "expr": "happy", "pose": "namaste" } ],
+        "lines": [ { "speaker": "narrator", "text": "सीख: जागरूक रहो, तो कोई ठग नहीं सकता।" } ] }
+    ]}
+  ]
+}

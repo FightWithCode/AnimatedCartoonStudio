@@ -1,0 +1,41 @@
+{
+ "id": "kishan",
+ "name": "Kishan (kind aloo-puri seller)",
+ "height": 362,
+ "seed": 6,
+ "skin": "#c68a5a",
+ "build": {
+  "sw": 0.98,
+  "ww": 1.0
+ },
+ "hair": {
+  "style": "short",
+  "color": "#1b130e"
+ },
+ "headwear": {
+  "type": "turban",
+  "color": "#d9822b",
+  "tail": true
+ },
+ "face": {
+  "moustache": "#1b130e",
+  "brow": "#1b130e",
+  "eyeScale": 1.02
+ },
+ "top": {
+  "type": "shirt",
+  "color": "#efd48a",
+  "sleeve": "long",
+  "pocket": true
+ },
+ "bottom": {
+  "type": "dhoti",
+  "color": "#f1ece0",
+  "border": "#8a5a2a"
+ },
+ "shoes": {
+  "color": "#6a4428",
+  "kind": "sandal"
+ },
+ "extras": {}
+}

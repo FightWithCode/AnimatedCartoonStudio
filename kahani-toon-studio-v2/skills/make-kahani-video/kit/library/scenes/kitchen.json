@@ -1,0 +1,95 @@
+{
+ "id": "kitchen",
+ "width": 2400,
+ "ground": 800,
+ "interior": true,
+ "backdrop": "#3a2a20",
+ "layers": [
+  {
+   "parallax": 1,
+   "items": [
+    {
+     "prop": "room",
+     "x": 1200,
+     "y": 790,
+     "w": 2600,
+     "h": 720,
+     "wall": "#86bfa6",
+     "floor": "#b98a5a",
+     "ceiling": "#c46a35"
+    },
+    {
+     "prop": "windowWood",
+     "x": 640,
+     "y": 560,
+     "w": 200,
+     "h": 250
+    },
+    {
+     "prop": "doorWood",
+     "x": 2020,
+     "y": 790,
+     "w": 170,
+     "h": 400
+    },
+    {
+     "prop": "shelf",
+     "x": 900,
+     "y": 430,
+     "w": 430,
+     "seed": 3
+    },
+    {
+     "prop": "shelf",
+     "x": 1500,
+     "y": 380,
+     "w": 420,
+     "seed": 8
+    },
+    {
+     "prop": "rack",
+     "x": 1220,
+     "y": 240,
+     "w": 380
+    },
+    {
+     "prop": "chulha",
+     "x": 1260,
+     "y": 800,
+     "w": 330,
+     "h": 90,
+     "seed": 2
+    },
+    {
+     "prop": "matka",
+     "x": 620,
+     "y": 812,
+     "r": 38
+    },
+    {
+     "prop": "matka",
+     "x": 690,
+     "y": 822,
+     "r": 30
+    },
+    {
+     "prop": "sack",
+     "x": 1560,
+     "y": 812
+    },
+    {
+     "prop": "matka",
+     "x": 1800,
+     "y": 820,
+     "r": 34
+    },
+    {
+     "prop": "hangingLamp",
+     "x": 1000,
+     "y": 110,
+     "len": 0
+    }
+   ]
+  }
+ ]
+}

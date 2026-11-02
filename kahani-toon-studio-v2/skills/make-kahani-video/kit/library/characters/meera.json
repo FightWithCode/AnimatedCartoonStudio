@@ -1,0 +1,44 @@
+{
+ "id": "meera",
+ "name": "Meera (Kishan's wife)",
+ "height": 336,
+ "seed": 7,
+ "skin": "#d4986a",
+ "build": {
+  "sw": 0.86,
+  "ww": 0.9
+ },
+ "hair": {
+  "style": "bun",
+  "color": "#1a1210"
+ },
+ "face": {
+  "lash": true,
+  "eyeScale": 1.05,
+  "brow": "#1a1210",
+  "blush": "#e56a6a"
+ },
+ "top": {
+  "type": "blouse",
+  "color": "#2f8f5a",
+  "sleeve": "short",
+  "pallu": "#3aa56a",
+  "border": "#e8c24a"
+ },
+ "bottom": {
+  "type": "saree",
+  "color": "#2f8f5a",
+  "border": "#e8c24a"
+ },
+ "shoes": {
+  "color": "#d4986a",
+  "kind": "bare"
+ },
+ "extras": {
+  "bindi": "#b01a1a",
+  "bangles": "#e8c24a",
+  "earring": "#e8c24a",
+  "necklace": "#e8c24a",
+  "sindoor": "#c0261b"
+ }
+}

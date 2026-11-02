@@ -1,0 +1,52 @@
+{
+ "id": "cave-inside",
+ "width": 2400,
+ "ground": 800,
+ "interior": true,
+ "backdrop": "#07040c",
+ "layers": [
+  {
+   "parallax": 1,
+   "items": [
+    {
+     "prop": "caveRoom",
+     "x": 1200,
+     "y": 790,
+     "w": 2700,
+     "h": 760,
+     "cy": 70
+    },
+    {
+     "prop": "rock",
+     "x": 300,
+     "y": 806,
+     "w": 240
+    },
+    {
+     "prop": "rock",
+     "x": 2120,
+     "y": 812,
+     "w": 300
+    },
+    {
+     "prop": "rock",
+     "x": 1950,
+     "y": 800,
+     "w": 150
+    },
+    {
+     "prop": "wallTorch",
+     "x": 480,
+     "y": 560,
+     "seed": 1
+    },
+    {
+     "prop": "wallTorch",
+     "x": 1920,
+     "y": 560,
+     "seed": 4
+    }
+   ]
+  }
+ ]
+}

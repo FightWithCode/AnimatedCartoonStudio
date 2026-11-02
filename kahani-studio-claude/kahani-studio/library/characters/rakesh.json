@@ -1,0 +1,33 @@
+{
+ "id": "rakesh",
+ "name": "Rakesh (city visitor)",
+ "height": 372,
+ "seed": 9,
+ "skin": "#d6a070",
+ "build": {
+  "sw": 1.02,
+  "ww": 0.98
+ },
+ "hair": {
+  "style": "short",
+  "color": "#2a1c14"
+ },
+ "face": {
+  "brow": "#2a1c14",
+  "eyeScale": 1.0
+ },
+ "top": {
+  "type": "polo",
+  "color": "#3b73b8",
+  "sleeve": "short"
+ },
+ "bottom": {
+  "type": "pants",
+  "color": "#b9a784"
+ },
+ "shoes": {
+  "color": "#2b2420",
+  "kind": "shoe"
+ },
+ "extras": {}
+}

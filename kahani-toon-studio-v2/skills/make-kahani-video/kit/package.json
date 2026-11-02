@@ -1,0 +1,16 @@
+{
+ "name": "kahani-studio",
+ "version": "2.0.0",
+ "type": "module",
+ "private": true,
+ "scripts": {
+  "doctor": "node tools/doctor.mjs",
+  "serve": "node tools/server.mjs",
+  "test": "node tools/test.mjs",
+  "render": "node tools/render.mjs"
+ },
+ "dependencies": {
+  "@sparticuz/chromium": "153.0.0",
+  "puppeteer-core": "25.16.0"
+ }
+}

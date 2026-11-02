@@ -1,0 +1,39 @@
+{
+ "id": "neha",
+ "name": "Neha (city visitor)",
+ "height": 342,
+ "seed": 10,
+ "skin": "#e0aa7c",
+ "build": {
+  "sw": 0.88,
+  "ww": 0.92
+ },
+ "hair": {
+  "style": "bun",
+  "color": "#2a1810"
+ },
+ "face": {
+  "lash": true,
+  "eyeScale": 1.05,
+  "brow": "#2a1810",
+  "blush": "#ee8a8a"
+ },
+ "top": {
+  "type": "kurta",
+  "color": "#e0689a",
+  "sleeve": "short"
+ },
+ "bottom": {
+  "type": "pants",
+  "color": "#5a3a6a"
+ },
+ "shoes": {
+  "color": "#8a3a5a",
+  "kind": "shoe"
+ },
+ "extras": {
+  "bindi": "#7a1030",
+  "earring": "#e8c24a",
+  "bangles": "#e8c24a"
+ }
+}

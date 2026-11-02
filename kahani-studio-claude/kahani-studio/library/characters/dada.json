@@ -1,0 +1,8 @@
+{ "id": "dada", "name": "Dada (village elder)", "height": 352, "seed": 5,
+  "skin": "#c28a5c", "build": { "sw": 0.98, "ww": 1.02 },
+  "hair": { "style": "elder", "color": "#e9e9e6" },
+  "headwear": { "type": "topi", "color": "#f4f0e6" },
+  "face": { "moustache": "#e4e4e0", "brow": "#d8d8d4" },
+  "top": { "type": "shirt", "color": "#e9d9a8", "sleeve": "long", "vest": "#6a3d22" },
+  "bottom": { "type": "dhoti", "color": "#f5f2e8", "border": "#b07a3a" },
+  "shoes": { "color": "#5a3d26", "kind": "sandal" }, "extras": { "wrinkles": true } }

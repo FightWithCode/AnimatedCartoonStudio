@@ -1,0 +1,44 @@
+{
+ "id": "sajan",
+ "name": "Sajan (Mohan's wife)",
+ "height": 340,
+ "seed": 8,
+ "skin": "#c9915f",
+ "build": {
+  "sw": 0.88,
+  "ww": 0.95
+ },
+ "hair": {
+  "style": "bun",
+  "color": "#150e0c"
+ },
+ "face": {
+  "lash": true,
+  "eyeScale": 1.05,
+  "brow": "#150e0c",
+  "blush": "#d95a5a"
+ },
+ "top": {
+  "type": "blouse",
+  "color": "#8a4cb0",
+  "sleeve": "short",
+  "pallu": "#7b3fa0",
+  "border": "#f0c24a"
+ },
+ "bottom": {
+  "type": "saree",
+  "color": "#7b3fa0",
+  "border": "#f0c24a"
+ },
+ "shoes": {
+  "color": "#c9915f",
+  "kind": "bare"
+ },
+ "extras": {
+  "bindi": "#7a1010",
+  "bangles": "#f0c24a",
+  "earring": "#f0c24a",
+  "necklace": "#f0c24a",
+  "sindoor": "#c0261b"
+ }
+}

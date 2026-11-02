@@ -1,0 +1,54 @@
+{
+  "title": "ईमानदारी का फल",
+  "resolution": "1080p",
+  "fps": 25,
+  "captions": true,
+  "pace": 2.4,
+  "cast": {
+    "ramu":   { "name": "रामू", "outfit": "shirt-dhoti", "topColor": "#b4483c", "scarf": "#8f8ad8", "scarfStyle": "shoulder", "mustache": "thick", "skin": "medium" },
+    "sita":   { "name": "सीता", "gender": "f", "outfit": "saree", "topColor": "#2f73c8", "bottomColor": "#d8509a", "border": "#f0c02c" },
+    "seth":   { "name": "सेठ धनीराम", "outfit": "vest-kurta-dhoti", "vest": "#a51d24", "glasses": true, "hair": "wavy", "hairColor": "salt", "build": "heavy", "age": "old", "jewelry": "gold" },
+    "manager":{ "name": "मैनेजर साहब", "outfit": "shirt-pants", "topColor": "#5a2a4a", "tucked": true, "mustache": "thick" },
+    "mukhiya":{ "name": "मुखिया जी", "outfit": "kurta-dhoti", "topColor": "#6cc04a", "vest": "#7a1a3a", "headwear": "pagdi", "pagdiColor": "#e0465a", "mustache": "handlebar", "age": "old", "hairColor": "grey", "prop": "cane" },
+    "chotu":  { "name": "छोटू", "age": "child", "outfit": "school" }
+  },
+  "locations": {
+    "bank": { "base": "building", "options": { "sign": "GRAMIN BANK" } }
+  },
+  "scenes": [
+    { "location": "village", "time": "day", "shots": [
+      { "framing": "wide", "cam": "push", "title": "ईमानदारी का फल", "subtitle": "एक गाँव की कहानी", "dur": 3.5 },
+      { "framing": "wide", "chars": [ { "id": "ramu", "x": 0.2, "walk": { "from": 0.15, "to": 0.45 } } ],
+        "lines": [ { "speaker": "narrator", "text": "धनपुर गाँव में रामू नाम का एक गरीब पर ईमानदार किसान रहता था।" } ] }
+    ]},
+    { "location": "bank", "time": "day", "shots": [
+      { "framing": "wide", "chars": [ { "id": "ramu", "x": 0.3 }, { "extra": 1, "x": 0.62, "scale": 0.9 }, { "extra": 4, "x": 0.72, "scale": 0.9 } ],
+        "lines": [ { "speaker": "narrator", "text": "एक दिन बैंक के बाहर उसे एक थैला पड़ा मिला।" } ] },
+      { "framing": "mcu", "chars": [ { "id": "ramu", "x": 0.5, "prop": "bag", "pose": "give", "expr": "surprised" } ],
+        "lines": [ { "speaker": "ramu", "text": "अरे! इसमें तो बहुत सारे पैसे हैं! किसका होगा ये?", "acts": { "ramu": { "expr": "surprised" } } } ] }
+    ]},
+    { "location": "hut", "time": "evening", "shots": [
+      { "framing": "medium", "chars": [ { "id": "sita", "x": 0.3, "expr": "worried" }, { "id": "ramu", "x": 0.72, "view": "back", "prop": "bag" } ],
+        "lines": [ { "speaker": "sita", "text": "घर में खाने को कुछ नहीं है, और आप ये पैसे लौटाने की सोच रहे हो?", "acts": { "sita": { "pose": "open" } } } ] },
+      { "framing": "medium", "chars": [ { "id": "sita", "x": 0.28, "view": "back" }, { "id": "ramu", "x": 0.7, "prop": "bag" } ],
+        "lines": [ { "speaker": "ramu", "text": "सीता, पराया धन मिट्टी के समान होता है। मैं इसे लौटा कर आऊँगा।", "acts": { "ramu": { "pose": "chest", "expr": "proud" } } } ] }
+    ]},
+    { "location": "office", "time": "day", "shots": [
+      { "framing": "full", "chars": [ { "id": "manager", "x": 0.62, "layer": "back", "y": -0.06 }, { "id": "ramu", "x": 0.22, "prop": "bag" }, { "id": "seth", "x": 0.4, "expr": "worried" } ],
+        "lines": [ { "speaker": "seth", "text": "मेरा थैला! मेरी पूरी जमा पूँजी इसी में थी!", "acts": { "seth": { "pose": "open", "expr": "surprised" } } } ] },
+      { "framing": "mcu", "chars": [ { "id": "manager", "x": 0.6, "layer": "back" } ],
+        "lines": [ { "speaker": "manager", "text": "रामू जैसा ईमानदार आदमी आज के ज़माने में मिलना मुश्किल है।", "acts": { "manager": { "expr": "smile" } } } ] }
+    ]},
+    { "location": "chaupal", "time": "day", "shots": [
+      { "framing": "wide", "chars": [ { "id": "mukhiya", "x": 0.5, "pose": "cane" }, { "id": "ramu", "x": 0.28 }, { "id": "seth", "x": 0.72 }, { "extra": 3, "x": 0.12, "scale": 0.92 }, { "extra": 0, "x": 0.88, "scale": 0.92 }, { "extra": 8, "x": 0.8, "scale": 1.0 } ],
+        "lines": [ { "speaker": "mukhiya", "text": "आज पूरे गाँव को रामू पर गर्व है!", "acts": { "mukhiya": { "expr": "proud" } } } ] },
+      { "framing": "medium", "chars": [ { "id": "seth", "x": 0.68, "pose": "give", "prop": "coins" }, { "id": "ramu", "x": 0.3, "pose": "namaste", "expr": "happy" } ],
+        "lines": [ { "speaker": "seth", "text": "ये लो रामू, ईनाम के एक हज़ार रुपये। तुमने मेरी इज़्ज़त बचा ली।", "acts": { "seth": { "expr": "happy" } } },
+                   { "speaker": "ramu", "text": "धन्यवाद सेठ जी।", "acts": { "ramu": { "expr": "happy" } } } ] }
+    ]},
+    { "location": "lane", "time": "night", "shots": [
+      { "framing": "full", "chars": [ { "id": "ramu", "x": 0.4, "expr": "happy" }, { "id": "sita", "x": 0.6, "expr": "happy" }, { "id": "chotu", "x": 0.52 } ],
+        "lines": [ { "speaker": "narrator", "text": "सीख: ईमानदारी का फल हमेशा मीठा होता है।" } ] }
+    ]}
+  ]
+}
